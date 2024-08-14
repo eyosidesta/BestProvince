@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="weather_options">
+        <item>Good</item>
+        <item>Normal</item>
+        <item>Bad</item>
+    </string-array>
+    <string-array name="safety_options">
+        <item>Safe</item>
+        <item>Normal</item>
+        <item>Unsafe</item>
+    </string-array>
+</resources>

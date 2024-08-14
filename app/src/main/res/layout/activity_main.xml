@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Ontario Inputs -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Province 1: Ontario" />
+
+        <Spinner
+            android:id="@+id/ontarioWeather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/weather_options" />
+
+        <EditText
+            android:id="@+id/ontarioCostOfLiving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cost of Living" />
+
+        <Spinner
+            android:id="@+id/ontarioSafety"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/safety_options" />
+
+        <!-- British Columbia Inputs -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Province 2: British Columbia" />
+
+        <Spinner
+            android:id="@+id/bcWeather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/weather_options" />
+
+        <EditText
+            android:id="@+id/bcCostOfLiving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cost of Living" />
+
+        <Spinner
+            android:id="@+id/bcSafety"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/safety_options" />
+
+        <!-- Alberta Inputs -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Province 3: Alberta" />
+
+        <Spinner
+            android:id="@+id/albertaWeather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/weather_options" />
+
+        <EditText
+            android:id="@+id/albertaCostOfLiving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cost of Living" />
+
+        <Spinner
+            android:id="@+id/albertaSafety"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/safety_options" />
+
+        <!-- Nova Scotia Inputs -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Province 4: Nova Scotia" />
+
+        <Spinner
+            android:id="@+id/nsWeather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/weather_options" />
+
+        <EditText
+            android:id="@+id/nsCostOfLiving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Cost of Living" />
+
+        <Spinner
+            android:id="@+id/nsSafety"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/safety_options" />
+
+        <Button
+            android:id="@+id/compareButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compare" />
+
+    </LinearLayout>
+</ScrollView>
